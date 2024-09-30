@@ -1,0 +1,48 @@
+.app {
+    margin: 15px;
+    display: flex;
+    font-size: 1.3rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: rgba(181, 221, 255, 0.761);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px 15px
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color:aliceblue
+}
+
+.products_add_form {
+    margin-left: 25px;
+}
+
+.products_add_form form {
+    margin-top: 15px;
+}
+
+.form_item {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form_item input{
+    margin-top: 5px;
+}
+
+.form_content button {
+    margin-top: 15px;
+}
